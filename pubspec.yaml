@@ -1,0 +1,24 @@
+name: spaceshooter
+description: "Classic Space Shooter"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+  flutter: 3.16.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: 1.14.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
